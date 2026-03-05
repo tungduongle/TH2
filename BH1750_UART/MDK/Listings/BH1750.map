@@ -215,56 +215,6 @@ Section Cross References
     stm32f10x_rcc.o(.ARM.exidx.text.RCC_ClearFlag) refers to stm32f10x_rcc.o(.text.RCC_ClearFlag) for [Anonymous Symbol]
     stm32f10x_rcc.o(.ARM.exidx.text.RCC_GetITStatus) refers to stm32f10x_rcc.o(.text.RCC_GetITStatus) for [Anonymous Symbol]
     stm32f10x_rcc.o(.ARM.exidx.text.RCC_ClearITPendingBit) refers to stm32f10x_rcc.o(.text.RCC_ClearITPendingBit) for [Anonymous Symbol]
-    stm32f10x_usart.o(.text.USART_DeInit) refers to stm32f10x_rcc.o(.text.RCC_APB2PeriphResetCmd) for RCC_APB2PeriphResetCmd
-    stm32f10x_usart.o(.text.USART_DeInit) refers to stm32f10x_rcc.o(.text.RCC_APB1PeriphResetCmd) for RCC_APB1PeriphResetCmd
-    stm32f10x_usart.o(.ARM.exidx.text.USART_DeInit) refers to stm32f10x_usart.o(.text.USART_DeInit) for [Anonymous Symbol]
-    stm32f10x_usart.o(.text.USART_Init) refers to stm32f10x_rcc.o(.text.RCC_GetClocksFreq) for RCC_GetClocksFreq
-    stm32f10x_usart.o(.ARM.exidx.text.USART_Init) refers to stm32f10x_usart.o(.text.USART_Init) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_StructInit) refers to stm32f10x_usart.o(.text.USART_StructInit) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_ClockInit) refers to stm32f10x_usart.o(.text.USART_ClockInit) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_ClockStructInit) refers to stm32f10x_usart.o(.text.USART_ClockStructInit) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_Cmd) refers to stm32f10x_usart.o(.text.USART_Cmd) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_ITConfig) refers to stm32f10x_usart.o(.text.USART_ITConfig) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_DMACmd) refers to stm32f10x_usart.o(.text.USART_DMACmd) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_SetAddress) refers to stm32f10x_usart.o(.text.USART_SetAddress) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_WakeUpConfig) refers to stm32f10x_usart.o(.text.USART_WakeUpConfig) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_ReceiverWakeUpCmd) refers to stm32f10x_usart.o(.text.USART_ReceiverWakeUpCmd) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_LINBreakDetectLengthConfig) refers to stm32f10x_usart.o(.text.USART_LINBreakDetectLengthConfig) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_LINCmd) refers to stm32f10x_usart.o(.text.USART_LINCmd) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_SendData) refers to stm32f10x_usart.o(.text.USART_SendData) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_ReceiveData) refers to stm32f10x_usart.o(.text.USART_ReceiveData) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_SendBreak) refers to stm32f10x_usart.o(.text.USART_SendBreak) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_SetGuardTime) refers to stm32f10x_usart.o(.text.USART_SetGuardTime) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_SetPrescaler) refers to stm32f10x_usart.o(.text.USART_SetPrescaler) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_SmartCardCmd) refers to stm32f10x_usart.o(.text.USART_SmartCardCmd) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_SmartCardNACKCmd) refers to stm32f10x_usart.o(.text.USART_SmartCardNACKCmd) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_HalfDuplexCmd) refers to stm32f10x_usart.o(.text.USART_HalfDuplexCmd) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_OverSampling8Cmd) refers to stm32f10x_usart.o(.text.USART_OverSampling8Cmd) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_OneBitMethodCmd) refers to stm32f10x_usart.o(.text.USART_OneBitMethodCmd) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_IrDAConfig) refers to stm32f10x_usart.o(.text.USART_IrDAConfig) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_IrDACmd) refers to stm32f10x_usart.o(.text.USART_IrDACmd) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_GetFlagStatus) refers to stm32f10x_usart.o(.text.USART_GetFlagStatus) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_ClearFlag) refers to stm32f10x_usart.o(.text.USART_ClearFlag) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_GetITStatus) refers to stm32f10x_usart.o(.text.USART_GetITStatus) for [Anonymous Symbol]
-    stm32f10x_usart.o(.ARM.exidx.text.USART_ClearITPendingBit) refers to stm32f10x_usart.o(.text.USART_ClearITPendingBit) for [Anonymous Symbol]
-    startup_stm32f10x_md.o(STACK) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
-    startup_stm32f10x_md.o(HEAP) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
-    startup_stm32f10x_md.o(RESET) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
-    startup_stm32f10x_md.o(RESET) refers to startup_stm32f10x_md.o(STACK) for __initial_sp
-    startup_stm32f10x_md.o(RESET) refers to startup_stm32f10x_md.o(.text) for Reset_Handler
-    startup_stm32f10x_md.o(.text) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
-    startup_stm32f10x_md.o(.text) refers to system_stm32f10x.o(.text.SystemInit) for SystemInit
-    startup_stm32f10x_md.o(.text) refers to __main.o(!!!main) for __main
-    startup_stm32f10x_md.o(.text) refers to startup_stm32f10x_md.o(HEAP) for Heap_Mem
-    startup_stm32f10x_md.o(.text) refers to startup_stm32f10x_md.o(STACK) for Stack_Mem
-    system_stm32f10x.o(.text.SystemInit) refers to system_stm32f10x.o(.text.SetSysClock) for SetSysClock
-    system_stm32f10x.o(.ARM.exidx.text.SystemInit) refers to system_stm32f10x.o(.text.SystemInit) for [Anonymous Symbol]
-    system_stm32f10x.o(.text.SetSysClock) refers to system_stm32f10x.o(.text.SetSysClockTo72) for SetSysClockTo72
-    system_stm32f10x.o(.ARM.exidx.text.SetSysClock) refers to system_stm32f10x.o(.text.SetSysClock) for [Anonymous Symbol]
-    system_stm32f10x.o(.text.SystemCoreClockUpdate) refers to system_stm32f10x.o(.data.SystemCoreClock) for SystemCoreClock
-    system_stm32f10x.o(.text.SystemCoreClockUpdate) refers to system_stm32f10x.o(.rodata.AHBPrescTable) for AHBPrescTable
-    system_stm32f10x.o(.ARM.exidx.text.SystemCoreClockUpdate) refers to system_stm32f10x.o(.text.SystemCoreClockUpdate) for [Anonymous Symbol]
-    system_stm32f10x.o(.ARM.exidx.text.SetSysClockTo72) refers to system_stm32f10x.o(.text.SetSysClockTo72) for [Anonymous Symbol]
     stm32f10x_tim.o(.text.TIM_DeInit) refers to stm32f10x_rcc.o(.text.RCC_APB2PeriphResetCmd) for RCC_APB2PeriphResetCmd
     stm32f10x_tim.o(.text.TIM_DeInit) refers to stm32f10x_rcc.o(.text.RCC_APB1PeriphResetCmd) for RCC_APB1PeriphResetCmd
     stm32f10x_tim.o(.ARM.exidx.text.TIM_DeInit) refers to stm32f10x_tim.o(.text.TIM_DeInit) for [Anonymous Symbol]
@@ -376,6 +326,56 @@ Section Cross References
     stm32f10x_tim.o(.ARM.exidx.text.TIM_ClearFlag) refers to stm32f10x_tim.o(.text.TIM_ClearFlag) for [Anonymous Symbol]
     stm32f10x_tim.o(.ARM.exidx.text.TIM_GetITStatus) refers to stm32f10x_tim.o(.text.TIM_GetITStatus) for [Anonymous Symbol]
     stm32f10x_tim.o(.ARM.exidx.text.TIM_ClearITPendingBit) refers to stm32f10x_tim.o(.text.TIM_ClearITPendingBit) for [Anonymous Symbol]
+    stm32f10x_usart.o(.text.USART_DeInit) refers to stm32f10x_rcc.o(.text.RCC_APB2PeriphResetCmd) for RCC_APB2PeriphResetCmd
+    stm32f10x_usart.o(.text.USART_DeInit) refers to stm32f10x_rcc.o(.text.RCC_APB1PeriphResetCmd) for RCC_APB1PeriphResetCmd
+    stm32f10x_usart.o(.ARM.exidx.text.USART_DeInit) refers to stm32f10x_usart.o(.text.USART_DeInit) for [Anonymous Symbol]
+    stm32f10x_usart.o(.text.USART_Init) refers to stm32f10x_rcc.o(.text.RCC_GetClocksFreq) for RCC_GetClocksFreq
+    stm32f10x_usart.o(.ARM.exidx.text.USART_Init) refers to stm32f10x_usart.o(.text.USART_Init) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_StructInit) refers to stm32f10x_usart.o(.text.USART_StructInit) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_ClockInit) refers to stm32f10x_usart.o(.text.USART_ClockInit) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_ClockStructInit) refers to stm32f10x_usart.o(.text.USART_ClockStructInit) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_Cmd) refers to stm32f10x_usart.o(.text.USART_Cmd) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_ITConfig) refers to stm32f10x_usart.o(.text.USART_ITConfig) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_DMACmd) refers to stm32f10x_usart.o(.text.USART_DMACmd) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_SetAddress) refers to stm32f10x_usart.o(.text.USART_SetAddress) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_WakeUpConfig) refers to stm32f10x_usart.o(.text.USART_WakeUpConfig) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_ReceiverWakeUpCmd) refers to stm32f10x_usart.o(.text.USART_ReceiverWakeUpCmd) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_LINBreakDetectLengthConfig) refers to stm32f10x_usart.o(.text.USART_LINBreakDetectLengthConfig) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_LINCmd) refers to stm32f10x_usart.o(.text.USART_LINCmd) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_SendData) refers to stm32f10x_usart.o(.text.USART_SendData) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_ReceiveData) refers to stm32f10x_usart.o(.text.USART_ReceiveData) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_SendBreak) refers to stm32f10x_usart.o(.text.USART_SendBreak) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_SetGuardTime) refers to stm32f10x_usart.o(.text.USART_SetGuardTime) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_SetPrescaler) refers to stm32f10x_usart.o(.text.USART_SetPrescaler) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_SmartCardCmd) refers to stm32f10x_usart.o(.text.USART_SmartCardCmd) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_SmartCardNACKCmd) refers to stm32f10x_usart.o(.text.USART_SmartCardNACKCmd) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_HalfDuplexCmd) refers to stm32f10x_usart.o(.text.USART_HalfDuplexCmd) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_OverSampling8Cmd) refers to stm32f10x_usart.o(.text.USART_OverSampling8Cmd) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_OneBitMethodCmd) refers to stm32f10x_usart.o(.text.USART_OneBitMethodCmd) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_IrDAConfig) refers to stm32f10x_usart.o(.text.USART_IrDAConfig) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_IrDACmd) refers to stm32f10x_usart.o(.text.USART_IrDACmd) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_GetFlagStatus) refers to stm32f10x_usart.o(.text.USART_GetFlagStatus) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_ClearFlag) refers to stm32f10x_usart.o(.text.USART_ClearFlag) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_GetITStatus) refers to stm32f10x_usart.o(.text.USART_GetITStatus) for [Anonymous Symbol]
+    stm32f10x_usart.o(.ARM.exidx.text.USART_ClearITPendingBit) refers to stm32f10x_usart.o(.text.USART_ClearITPendingBit) for [Anonymous Symbol]
+    startup_stm32f10x_md.o(STACK) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_stm32f10x_md.o(HEAP) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_stm32f10x_md.o(RESET) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_stm32f10x_md.o(RESET) refers to startup_stm32f10x_md.o(STACK) for __initial_sp
+    startup_stm32f10x_md.o(RESET) refers to startup_stm32f10x_md.o(.text) for Reset_Handler
+    startup_stm32f10x_md.o(.text) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_stm32f10x_md.o(.text) refers to system_stm32f10x.o(.text.SystemInit) for SystemInit
+    startup_stm32f10x_md.o(.text) refers to __main.o(!!!main) for __main
+    startup_stm32f10x_md.o(.text) refers to startup_stm32f10x_md.o(HEAP) for Heap_Mem
+    startup_stm32f10x_md.o(.text) refers to startup_stm32f10x_md.o(STACK) for Stack_Mem
+    system_stm32f10x.o(.text.SystemInit) refers to system_stm32f10x.o(.text.SetSysClock) for SetSysClock
+    system_stm32f10x.o(.ARM.exidx.text.SystemInit) refers to system_stm32f10x.o(.text.SystemInit) for [Anonymous Symbol]
+    system_stm32f10x.o(.text.SetSysClock) refers to system_stm32f10x.o(.text.SetSysClockTo72) for SetSysClockTo72
+    system_stm32f10x.o(.ARM.exidx.text.SetSysClock) refers to system_stm32f10x.o(.text.SetSysClock) for [Anonymous Symbol]
+    system_stm32f10x.o(.text.SystemCoreClockUpdate) refers to system_stm32f10x.o(.data.SystemCoreClock) for SystemCoreClock
+    system_stm32f10x.o(.text.SystemCoreClockUpdate) refers to system_stm32f10x.o(.rodata.AHBPrescTable) for AHBPrescTable
+    system_stm32f10x.o(.ARM.exidx.text.SystemCoreClockUpdate) refers to system_stm32f10x.o(.text.SystemCoreClockUpdate) for [Anonymous Symbol]
+    system_stm32f10x.o(.ARM.exidx.text.SetSysClockTo72) refers to system_stm32f10x.o(.text.SetSysClockTo72) for [Anonymous Symbol]
     __2sprintf.o(.text) refers to _printf_char_common.o(.text) for _printf_char_common
     __2sprintf.o(.text) refers to _sputc.o(.text) for _sputc
     noretval__2sprintf.o(.text) refers to _printf_char_common.o(.text) for _printf_char_common
@@ -702,69 +702,6 @@ Removing Unused input sections from the image.
     Removing stm32f10x_rcc.o(.ARM.exidx.text.RCC_GetITStatus), (8 bytes).
     Removing stm32f10x_rcc.o(.text.RCC_ClearITPendingBit), (12 bytes).
     Removing stm32f10x_rcc.o(.ARM.exidx.text.RCC_ClearITPendingBit), (8 bytes).
-    Removing stm32f10x_usart.o(.text), (0 bytes).
-    Removing stm32f10x_usart.o(.text.USART_DeInit), (174 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_DeInit), (8 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_Init), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_StructInit), (18 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_StructInit), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_ClockInit), (34 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_ClockInit), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_ClockStructInit), (8 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_ClockStructInit), (8 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_Cmd), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_ITConfig), (46 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_ITConfig), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_DMACmd), (16 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_DMACmd), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_SetAddress), (16 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_SetAddress), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_WakeUpConfig), (16 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_WakeUpConfig), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_ReceiverWakeUpCmd), (18 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_ReceiverWakeUpCmd), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_LINBreakDetectLengthConfig), (16 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_LINBreakDetectLengthConfig), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_LINCmd), (18 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_LINCmd), (8 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_SendData), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_ReceiveData), (8 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_ReceiveData), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_SendBreak), (10 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_SendBreak), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_SetGuardTime), (16 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_SetGuardTime), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_SetPrescaler), (16 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_SetPrescaler), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_SmartCardCmd), (18 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_SmartCardCmd), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_SmartCardNACKCmd), (18 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_SmartCardNACKCmd), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_HalfDuplexCmd), (18 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_HalfDuplexCmd), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_OverSampling8Cmd), (20 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_OverSampling8Cmd), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_OneBitMethodCmd), (18 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_OneBitMethodCmd), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_IrDAConfig), (16 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_IrDAConfig), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_IrDACmd), (18 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_IrDACmd), (8 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_GetFlagStatus), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_ClearFlag), (6 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_ClearFlag), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_GetITStatus), (58 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_GetITStatus), (8 bytes).
-    Removing stm32f10x_usart.o(.text.USART_ClearITPendingBit), (14 bytes).
-    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_ClearITPendingBit), (8 bytes).
-    Removing system_stm32f10x.o(.text), (0 bytes).
-    Removing system_stm32f10x.o(.ARM.exidx.text.SystemInit), (8 bytes).
-    Removing system_stm32f10x.o(.ARM.exidx.text.SetSysClock), (8 bytes).
-    Removing system_stm32f10x.o(.text.SystemCoreClockUpdate), (110 bytes).
-    Removing system_stm32f10x.o(.ARM.exidx.text.SystemCoreClockUpdate), (8 bytes).
-    Removing system_stm32f10x.o(.ARM.exidx.text.SetSysClockTo72), (8 bytes).
-    Removing system_stm32f10x.o(.data.SystemCoreClock), (4 bytes).
-    Removing system_stm32f10x.o(.rodata.AHBPrescTable), (16 bytes).
     Removing stm32f10x_tim.o(.text), (0 bytes).
     Removing stm32f10x_tim.o(.text.TIM_DeInit), (558 bytes).
     Removing stm32f10x_tim.o(.ARM.exidx.text.TIM_DeInit), (8 bytes).
@@ -948,6 +885,69 @@ Removing Unused input sections from the image.
     Removing stm32f10x_tim.o(.ARM.exidx.text.TIM_GetITStatus), (8 bytes).
     Removing stm32f10x_tim.o(.text.TIM_ClearITPendingBit), (6 bytes).
     Removing stm32f10x_tim.o(.ARM.exidx.text.TIM_ClearITPendingBit), (8 bytes).
+    Removing stm32f10x_usart.o(.text), (0 bytes).
+    Removing stm32f10x_usart.o(.text.USART_DeInit), (174 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_DeInit), (8 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_Init), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_StructInit), (18 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_StructInit), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_ClockInit), (34 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_ClockInit), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_ClockStructInit), (8 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_ClockStructInit), (8 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_Cmd), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_ITConfig), (46 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_ITConfig), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_DMACmd), (16 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_DMACmd), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_SetAddress), (16 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_SetAddress), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_WakeUpConfig), (16 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_WakeUpConfig), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_ReceiverWakeUpCmd), (18 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_ReceiverWakeUpCmd), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_LINBreakDetectLengthConfig), (16 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_LINBreakDetectLengthConfig), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_LINCmd), (18 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_LINCmd), (8 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_SendData), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_ReceiveData), (8 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_ReceiveData), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_SendBreak), (10 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_SendBreak), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_SetGuardTime), (16 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_SetGuardTime), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_SetPrescaler), (16 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_SetPrescaler), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_SmartCardCmd), (18 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_SmartCardCmd), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_SmartCardNACKCmd), (18 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_SmartCardNACKCmd), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_HalfDuplexCmd), (18 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_HalfDuplexCmd), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_OverSampling8Cmd), (20 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_OverSampling8Cmd), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_OneBitMethodCmd), (18 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_OneBitMethodCmd), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_IrDAConfig), (16 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_IrDAConfig), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_IrDACmd), (18 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_IrDACmd), (8 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_GetFlagStatus), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_ClearFlag), (6 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_ClearFlag), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_GetITStatus), (58 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_GetITStatus), (8 bytes).
+    Removing stm32f10x_usart.o(.text.USART_ClearITPendingBit), (14 bytes).
+    Removing stm32f10x_usart.o(.ARM.exidx.text.USART_ClearITPendingBit), (8 bytes).
+    Removing system_stm32f10x.o(.text), (0 bytes).
+    Removing system_stm32f10x.o(.ARM.exidx.text.SystemInit), (8 bytes).
+    Removing system_stm32f10x.o(.ARM.exidx.text.SetSysClock), (8 bytes).
+    Removing system_stm32f10x.o(.text.SystemCoreClockUpdate), (110 bytes).
+    Removing system_stm32f10x.o(.ARM.exidx.text.SystemCoreClockUpdate), (8 bytes).
+    Removing system_stm32f10x.o(.ARM.exidx.text.SetSysClockTo72), (8 bytes).
+    Removing system_stm32f10x.o(.data.SystemCoreClock), (4 bytes).
+    Removing system_stm32f10x.o(.rodata.AHBPrescTable), (16 bytes).
 
 424 unused section(s) (total 7388 bytes) removed from the image.
 
@@ -1378,7 +1378,7 @@ Memory Map of the image
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x08000000   0x08000000   0x000000ec   Data   RO          309    RESET               startup_stm32f10x_md.o
+    0x08000000   0x08000000   0x000000ec   Data   RO          499    RESET               startup_stm32f10x_md.o
     0x080000ec   0x080000ec   0x00000008   Code   RO          558  * !!!main             c_w.l(__main.o)
     0x080000f4   0x080000f4   0x00000034   Code   RO          749    !!!scatter          c_w.l(__scatter.o)
     0x08000128   0x08000128   0x0000001c   Code   RO          751    !!handler_zi        c_w.l(__scatter_zi.o)
@@ -1426,7 +1426,7 @@ Memory Map of the image
     0x0800016a   0x0800016a   0x00000000   Code   RO          665    .ARM.Collect$$rtexit$$00000002  c_w.l(rtexit2.o)
     0x0800016a   0x0800016a   0x00000004   Code   RO          666    .ARM.Collect$$rtexit$$00000003  c_w.l(rtexit2.o)
     0x0800016e   0x0800016e   0x00000006   Code   RO          667    .ARM.Collect$$rtexit$$00000004  c_w.l(rtexit2.o)
-    0x08000174   0x08000174   0x00000040   Code   RO          310    .text               startup_stm32f10x_md.o
+    0x08000174   0x08000174   0x00000040   Code   RO          500    .text               startup_stm32f10x_md.o
     0x080001b4   0x080001b4   0x00000028   Code   RO          528    .text               c_w.l(noretval__2sprintf.o)
     0x080001dc   0x080001dc   0x00000068   Code   RO          530    .text               c_w.l(__printf.o)
     0x08000244   0x08000244   0x00000078   Code   RO          532    .text               c_w.l(_printf_dec.o)
@@ -1467,21 +1467,21 @@ Memory Map of the image
     0x080007c0   0x080007c0   0x00000018   Code   RO          214    .text.RCC_APB1PeriphClockCmd  stm32f10x_rcc.o
     0x080007d8   0x080007d8   0x00000018   Code   RO          212    .text.RCC_APB2PeriphClockCmd  stm32f10x_rcc.o
     0x080007f0   0x080007f0   0x000000a0   Code   RO          208    .text.RCC_GetClocksFreq  stm32f10x_rcc.o
-    0x08000890   0x08000890   0x00000008   Code   RO          319    .text.SetSysClock   system_stm32f10x.o
-    0x08000898   0x08000898   0x000000be   Code   RO          323    .text.SetSysClockTo72  system_stm32f10x.o
+    0x08000890   0x08000890   0x00000008   Code   RO          509    .text.SetSysClock   system_stm32f10x.o
+    0x08000898   0x08000898   0x000000be   Code   RO          513    .text.SetSysClockTo72  system_stm32f10x.o
     0x08000956   0x08000956   0x00000002   PAD
-    0x08000958   0x08000958   0x00000056   Code   RO          317    .text.SystemInit    system_stm32f10x.o
+    0x08000958   0x08000958   0x00000056   Code   RO          507    .text.SystemInit    system_stm32f10x.o
     0x080009ae   0x080009ae   0x00000002   PAD
     0x080009b0   0x080009b0   0x00000022   Code   RO            6    .text.USART1_SendChar  main.o
     0x080009d2   0x080009d2   0x00000002   PAD
     0x080009d4   0x080009d4   0x0000001c   Code   RO            8    .text.USART1_SendString  main.o
-    0x080009f0   0x080009f0   0x00000012   Code   RO          252    .text.USART_Cmd     stm32f10x_usart.o
+    0x080009f0   0x080009f0   0x00000012   Code   RO          442    .text.USART_Cmd     stm32f10x_usart.o
     0x08000a02   0x08000a02   0x00000002   PAD
-    0x08000a04   0x08000a04   0x0000000a   Code   RO          292    .text.USART_GetFlagStatus  stm32f10x_usart.o
+    0x08000a04   0x08000a04   0x0000000a   Code   RO          482    .text.USART_GetFlagStatus  stm32f10x_usart.o
     0x08000a0e   0x08000a0e   0x00000002   PAD
-    0x08000a10   0x08000a10   0x000000b2   Code   RO          244    .text.USART_Init    stm32f10x_usart.o
+    0x08000a10   0x08000a10   0x000000b2   Code   RO          434    .text.USART_Init    stm32f10x_usart.o
     0x08000ac2   0x08000ac2   0x00000002   PAD
-    0x08000ac4   0x08000ac4   0x00000008   Code   RO          268    .text.USART_SendData  stm32f10x_usart.o
+    0x08000ac4   0x08000ac4   0x00000008   Code   RO          458    .text.USART_SendData  stm32f10x_usart.o
     0x08000acc   0x08000acc   0x0000006a   Code   RO            4    .text.config_uart   main.o
     0x08000b36   0x08000b36   0x00000002   PAD
     0x08000b38   0x08000b38   0x0000003e   Code   RO            2    .text.delay_ms      main.o
@@ -1508,8 +1508,8 @@ Memory Map of the image
     0x20000060        -       0x00000028   Zero   RW           22    .bss.buffer         main.o
     0x20000088        -       0x00000002   Zero   RW           21    .bss.rv             main.o
     0x2000008a   0x08001000   0x00000006   PAD
-    0x20000090        -       0x00000200   Zero   RW          308    HEAP                startup_stm32f10x_md.o
-    0x20000290        -       0x00000400   Zero   RW          307    STACK               startup_stm32f10x_md.o
+    0x20000090        -       0x00000200   Zero   RW          498    HEAP                startup_stm32f10x_md.o
+    0x20000290        -       0x00000400   Zero   RW          497    STACK               startup_stm32f10x_md.o
 
 
 ==============================================================================
@@ -1519,7 +1519,7 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       754         32          9          0         42       4555   main.o
+       754         32          9          0         42       4557   main.o
         64         26        236          0       1536        816   startup_stm32f10x_md.o
        176          0          0          0          0       5882   stm32f10x_gpio.o
        324          0          0          0          0       8430   stm32f10x_i2c.o
@@ -1528,7 +1528,7 @@ Image component sizes
        284          0          0          0          0       2804   system_stm32f10x.o
 
     ----------------------------------------------------------------------
-      2056         58        284          0       1584      38151   Object Totals
+      2056         58        284          0       1584      38153   Object Totals
          0          0         16          0          0          0   (incl. Generated)
         32          0          3          0          6          0   (incl. Padding)
 
@@ -1592,8 +1592,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      3812        250        284          0       1680      38955   Grand Totals
-      3812        250        284          0       1680      38955   ELF Image Totals
+      3812        250        284          0       1680      38957   Grand Totals
+      3812        250        284          0       1680      38957   ELF Image Totals
       3812        250        284          0          0          0   ROM Totals
 
 ==============================================================================

@@ -5,12 +5,6 @@
 #include "stm32f10x_usart.h"            // Keil::Device:StdPeriph Drivers:USART
 #include "stdio.h"
 
-/* UART1: APB2
-TX: PA9 - AF_PP
-RX: PA10 - IN_FLOATING
-
-ADC: PA4 - AIN;
-*/
 
 #define BH1750_ADDR 0x46
 #define BH1750_PWR_ON 0x01
@@ -21,18 +15,6 @@ void delay_ms(uint16_t time);
 void config_uart();
 void config_ADC();
 
-//Ham duoi day de goi printf ra uart
-//struct __FILE {
-//    int dummy;
-//};
-//FILE __stdout;
-// 
-//int fputc(int ch, FILE *f) {
-// 
-//    uart_SendChar(ch);
-//  
-//    return ch;
-//}
 
 void delay_ms(uint16_t time){ // 1s
 		uint16_t i;
@@ -84,38 +66,6 @@ void USART1_SendString(char *s) {
     }
 }
 
-//void Config_I2C(){
-////	GPIO_InitTypeDef GPIO_InitStruct;
-//	I2C_InitTypeDef I2C_InitStruct;
-//	 
-//	// Bat clock
-//	RCC -> APB2ENR |= 0x0008; // Bat clock cho GPIOB (bit 3)
-//	RCC -> APB1ENR |= (1 << 21); //Bat clock cho I2C1 (bit 21)
-//	
-////	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
-////	RCC_APB1PeriphClockCmd(RCC_APB1Periph_I2C1, ENABLE);
-
-//	// Cau hình PB6, PB7 là Alternate Function output Open-Drain
-//	GPIOB -> CRL |= 0xFF000000;
-//	
-////	GPIO_InitStruct.GPIO_Pin = GPIO_Pin_6 | GPIO_Pin_7;
-////	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_AF_OD;
-////	GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
-////	GPIO_Init(GPIOB, &GPIO_InitStruct);
-
-//	// Cau hình I2C1
-//	I2C_InitStruct.I2C_ClockSpeed = 100000;      // Toc do truyen 100kHz
-//	I2C_InitStruct.I2C_Mode = I2C_Mode_I2C;			 // Che do I2C
-//	I2C_InitStruct.I2C_DutyCycle = I2C_DutyCycle_2; // Thigh = Tlow
-//	I2C_InitStruct.I2C_OwnAddress1 = 0x00;       // STM32 làm master, day la dia chi chinh khi stm lam slave nen ko quan trong
-//	I2C_InitStruct.I2C_Ack = I2C_Ack_Enable;		 // Bat ACK: tin hieu xac nhan sau moi byte truyen
-//	I2C_InitStruct.I2C_AcknowledgedAddress = I2C_AcknowledgedAddress_7bit; // Che do dia chi 7 bit 
-//	I2C_Init(I2C1, &I2C_InitStruct);
-
-//	//Enable I2C1
-//	I2C_Cmd(I2C1, ENABLE);
-//}
-
 
 void Config_I2C(){
 		GPIO_InitTypeDef GPIO_init;
@@ -140,23 +90,6 @@ void Config_I2C(){
 		I2C_Cmd(I2C1, ENABLE);
 }
 
-
-		///////////////
-//void BH1750_Init(){ 
-//    while (I2C_GetFlagStatus(I2C1, I2C_FLAG_BUSY));
-//    I2C_GenerateSTART(I2C1, ENABLE);
-//    while (!I2C_CheckEvent(I2C1, I2C_EVENT_MASTER_MODE_SELECT));
-//    I2C_Send7bitAddress(I2C1, BH1750_ADDR, I2C_Direction_Transmitter);
-//    while (!I2C_CheckEvent(I2C1, I2C_EVENT_MASTER_TRANSMITTER_MODE_SELECTED));
-
-//    I2C_SendData(I2C1, BH1750_PWR_ON);  // b?t ngu?n
-//    while (!I2C_CheckEvent(I2C1, I2C_EVENT_MASTER_BYTE_TRANSMITTED));
-
-//    I2C_SendData(I2C1, BH1750_CONT_HRES_MODE); // ch?n mode do
-//    while (!I2C_CheckEvent(I2C1, I2C_EVENT_MASTER_BYTE_TRANSMITTED));
-
-//    I2C_GenerateSTOP(I2C1, ENABLE);
-//}
 
 void I2C_WriteByte(uint8_t address, uint8_t data){
 	// Send START
